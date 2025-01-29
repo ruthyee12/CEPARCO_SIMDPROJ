@@ -14,7 +14,7 @@ void dotproduct_c(double* A, double* B, double* result, int n) {
 }
 
 int main() {
-    int n = 1048576;
+    int n = 1 << 20;
 
     double* A = (double*)malloc(n * sizeof(double));
     double* B = (double*)malloc(n * sizeof(double));
@@ -30,8 +30,10 @@ int main() {
     // Initialize vectors A and B
     srand(42);
     for (int i = 0; i < n; i++) {
-        A[i] = (double)(rand() % 100) / 10.0;
-        B[i] = (double)(rand() % 100) / 10.0;
+        //A[i] = (double)(rand() % 100) / 10.0;
+        //B[i] = (double)(rand() % 100) / 10.0;
+        A[i] = 1.0;
+        B[i] = 2.0;
     }
 
     // Time the C function

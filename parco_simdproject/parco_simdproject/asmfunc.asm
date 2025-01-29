@@ -5,26 +5,22 @@ section .text
 
 x86:
     ; Parameters:
-    ; rdi - n (size of the vector)
-    ; rsi - A (pointer to vector A)
-    ; rdx - B (pointer to vector B)
-    ; rcx - result (pointer to store result)
+    ; rcx - n (size of the vector)
+    ; rdx - A (pointer to vector A)
+    ; r8 - B (pointer to vector B)
+    ; r9 - result (pointer to store result)
 
-    xor r8, r8            
-    xor r9, r9            
+    xorpd xmm2, xmm2
 
 L1:
-    cmp r9, rdi           
-    jge done
-
-    movsd xmm0, [rsi + r9*8]  
-    movsd xmm1, [rdx + r9*8]  
+    movsd xmm0, [rdx]  
+    movsd xmm1, [r8]  
     mulsd xmm0, xmm1         
-    addsd r8, xmm0           
-
-    inc r9                 
-    jmp L1
+    addsd xmm2, xmm0   
+    add rdx, 8
+    add r8, 8
+    LOOP L1
 
 done:
-    movsd [rcx], r8         
+    movq [r9], xmm2        
     ret
