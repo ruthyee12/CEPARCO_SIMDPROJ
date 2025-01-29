@@ -1,4 +1,2 @@
-﻿  Performing Custom Build Tools
-  asmfunc.asm:23: error: invalid combination of opcode and operands
-  asmfunc.asm:29: error: invalid combination of opcode and operands
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): error MSB8066: Custom build for 'asmfunc.asm' exited with code 1.
+﻿  main.c
+  parco_simdproject.vcxproj -> D:\Programming Projects\school\parco\CEPARCO_SIMDPROJ\parco_simdproject\x64\Debug\parco_simdproject.exe
