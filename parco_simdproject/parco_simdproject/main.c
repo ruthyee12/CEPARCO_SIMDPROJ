@@ -5,6 +5,7 @@
 #include <math.h>
 
 extern void x86(int n, double* A, double* B, double* result);
+extern void ymm(int n, double* A, double* B, double* result);
 
 void dotproduct_c(double* A, double* B, double* result, int n) {
     *result = 0.0;
@@ -18,7 +19,7 @@ int main() {
 
     double* A = (double*)malloc(n * sizeof(double));
     double* B = (double*)malloc(n * sizeof(double));
-    double result_c, result_asm;
+    double result_c, result_asm, result_ymm;
 
     if (!A || !B) {
         printf("Memory allocation failed. Exiting.\n");
@@ -60,19 +61,40 @@ int main() {
     clock_t end_asm = clock();
     double avg_time_asm = total_time_asm / 30.0;
 
+    // Time the YMM function
+    clock_t start_ymm = clock();
+    double total_time_ymm = 0.0;
+    for (int i = 0; i < 30; i++) {
+        clock_t start_iter = clock();
+        ymm(n, A, B, &result_ymm);
+        clock_t end_iter = clock();
+        total_time_ymm += (double)(end_iter - start_iter) / CLOCKS_PER_SEC;
+    }
+    clock_t end_ymm = clock();
+    double avg_time_ymm = total_time_ymm / 30.0;
+
     printf("\nResults for n = %d:\n", n);
     printf("C kernel average time: %.6f seconds\n", avg_time_c);
     printf("ASM kernel average time: %.6f seconds\n", avg_time_asm);
+    printf("YMM kernel average time: %.6f seconds\n", avg_time_ymm);
+
     printf("C result: %.6f\n", result_c);
     printf("ASM result: %.6f\n", result_asm);
+    printf("YMM result: %.6f\n", result_ymm);
 
-    // Compare results
-    if (fabs(result_c - result_asm) < 1e-6) {
-        printf("Results matched. No errors found.\n");
-    }
-    else {
+
+    // Compare results 
+    // ASM 
+    if (fabs(result_c - result_asm) < 1e-6) 
+        printf("Results matched. No errors found between C and ASM.\n");
+    else 
         printf("Mismatch between C and ASM results.\n");
-    }
+
+    // YMM
+    if (fabs(result_c - result_ymm) < 1e-6)
+        printf("Results matched. No errors found between C and YMM.\n");
+    else
+        printf("Mismatch between C and ASM results.\n");
 
     free(A);
     free(B);
