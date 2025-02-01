@@ -151,6 +151,17 @@
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ymm.obj</Outputs>
     </CustomBuild>
   </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="xmm.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\nasm\nasm -fwin64 xmm.asm</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">xmm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\nasm\nasm -fwin64 xmm.asm</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">xmm.obj</Outputs>
+    </CustomBuild>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
