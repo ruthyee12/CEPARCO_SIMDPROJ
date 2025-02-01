@@ -13,6 +13,8 @@ x86:
     xorpd xmm2, xmm2
 
 L1:
+    cmp rcx, 0
+    jle wala
     movsd xmm0, [rdx]  
     movsd xmm1, [r8]  
     mulsd xmm0, xmm1         
@@ -23,4 +25,8 @@ L1:
 
 done:
     movq [r9], xmm2        
+    ret
+
+wala:
+    mov qword [r9], 0
     ret
