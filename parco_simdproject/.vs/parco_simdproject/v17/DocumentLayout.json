@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Programming Projects\\school\\parco\\CEPARCO_SIMDPROJ\\parco_simdproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A92CD0C1-7BA2-4C7D-B046-F79FC4B1777A}|parco_simdproject\\parco_simdproject.vcxproj|D:\\Programming Projects\\school\\parco\\CEPARCO_SIMDPROJ\\parco_simdproject\\parco_simdproject\\xmm.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A92CD0C1-7BA2-4C7D-B046-F79FC4B1777A}|parco_simdproject\\parco_simdproject.vcxproj|solutionrelative:parco_simdproject\\xmm.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A92CD0C1-7BA2-4C7D-B046-F79FC4B1777A}|parco_simdproject\\parco_simdproject.vcxproj|D:\\Programming Projects\\school\\parco\\CEPARCO_SIMDPROJ\\parco_simdproject\\parco_simdproject\\ymm.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A92CD0C1-7BA2-4C7D-B046-F79FC4B1777A}|parco_simdproject\\parco_simdproject.vcxproj|solutionrelative:parco_simdproject\\ymm.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A92CD0C1-7BA2-4C7D-B046-F79FC4B1777A}|parco_simdproject\\parco_simdproject.vcxproj|D:\\Programming Projects\\school\\parco\\CEPARCO_SIMDPROJ\\parco_simdproject\\parco_simdproject\\asmfunc.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A92CD0C1-7BA2-4C7D-B046-F79FC4B1777A}|parco_simdproject\\parco_simdproject.vcxproj|solutionrelative:parco_simdproject\\asmfunc.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A92CD0C1-7BA2-4C7D-B046-F79FC4B1777A}|parco_simdproject\\parco_simdproject.vcxproj|D:\\Programming Projects\\school\\parco\\CEPARCO_SIMDPROJ\\parco_simdproject\\parco_simdproject\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A92CD0C1-7BA2-4C7D-B046-F79FC4B1777A}|parco_simdproject\\parco_simdproject.vcxproj|solutionrelative:parco_simdproject\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92CD0C1-7BA2-4C7D-B046-F79FC4B1777A}|parco_simdproject\\parco_simdproject.vcxproj|D:\\Programming Projects\\school\\parco\\CEPARCO_SIMDPROJ\\parco_simdproject\\parco_simdproject\\xmm.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A92CD0C1-7BA2-4C7D-B046-F79FC4B1777A}|parco_simdproject\\parco_simdproject.vcxproj|solutionrelative:parco_simdproject\\xmm.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92CD0C1-7BA2-4C7D-B046-F79FC4B1777A}|parco_simdproject\\parco_simdproject.vcxproj|D:\\Programming Projects\\school\\parco\\CEPARCO_SIMDPROJ\\parco_simdproject\\parco_simdproject\\asmfunc.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A92CD0C1-7BA2-4C7D-B046-F79FC4B1777A}|parco_simdproject\\parco_simdproject.vcxproj|solutionrelative:parco_simdproject\\asmfunc.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "xmm.asm",
               "DocumentMoniker": "D:\\Programming Projects\\school\\parco\\CEPARCO_SIMDPROJ\\parco_simdproject\\parco_simdproject\\xmm.asm",
               "RelativeDocumentMoniker": "parco_simdproject\\xmm.asm",
               "ToolTip": "D:\\Programming Projects\\school\\parco\\CEPARCO_SIMDPROJ\\parco_simdproject\\parco_simdproject\\xmm.asm",
               "RelativeToolTip": "parco_simdproject\\xmm.asm",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAALAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-02-01T11:38:25.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ymm.asm",
               "DocumentMoniker": "D:\\Programming Projects\\school\\parco\\CEPARCO_SIMDPROJ\\parco_simdproject\\parco_simdproject\\ymm.asm",
               "RelativeDocumentMoniker": "parco_simdproject\\ymm.asm",
               "ToolTip": "D:\\Programming Projects\\school\\parco\\CEPARCO_SIMDPROJ\\parco_simdproject\\parco_simdproject\\ymm.asm",
               "RelativeToolTip": "parco_simdproject\\ymm.asm",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAbAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-01-29T10:32:24.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "asmfunc.asm",
               "DocumentMoniker": "D:\\Programming Projects\\school\\parco\\CEPARCO_SIMDPROJ\\parco_simdproject\\parco_simdproject\\asmfunc.asm",
               "RelativeDocumentMoniker": "parco_simdproject\\asmfunc.asm",
               "ToolTip": "D:\\Programming Projects\\school\\parco\\CEPARCO_SIMDPROJ\\parco_simdproject\\parco_simdproject\\asmfunc.asm",
               "RelativeToolTip": "parco_simdproject\\asmfunc.asm",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-01-29T09:24:22.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "main.c",
               "DocumentMoniker": "D:\\Programming Projects\\school\\parco\\CEPARCO_SIMDPROJ\\parco_simdproject\\parco_simdproject\\main.c",
               "RelativeDocumentMoniker": "parco_simdproject\\main.c",
               "ToolTip": "D:\\Programming Projects\\school\\parco\\CEPARCO_SIMDPROJ\\parco_simdproject\\parco_simdproject\\main.c",
               "RelativeToolTip": "parco_simdproject\\main.c",
-              "ViewState": "AQIAAFIAAAAAAAAAAADwv18AAAAEAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-01-29T09:24:17.589Z",
               "EditorCaption": ""
