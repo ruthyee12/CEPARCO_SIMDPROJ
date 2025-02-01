@@ -16,11 +16,11 @@ void dotproduct_c(double* A, double* B, double* result, int n) {
 }
 
 int main() {
-    int n = 1 << 20;
+    int n = 1<<20;
 
     double* A = (double*)malloc(n * sizeof(double));
     double* B = (double*)malloc(n * sizeof(double));
-    double result_c, result_asm, result_xmm, result_ymm;
+    double result_c = 0, result_asm = 0, result_xmm = 0, result_ymm = 0;
 
     if (!A || !B) {
         printf("Memory allocation failed. Exiting.\n");
