@@ -1,6 +1,6 @@
 # CEPARCO SIMD Programming Project
 
-<h3> Overview </h3>
+## Overview
 
 ## Execution time of all cases
 
