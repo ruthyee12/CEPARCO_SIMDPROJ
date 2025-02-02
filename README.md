@@ -1,7 +1,22 @@
 # CEPARCO SIMD Programming Project
 
 ## Overview
+This project implements and benchmarks dot product computation between two double-precision floating-point vectors using four different implementations: C, x86, XMM SIMD, YMM SIMD. The execution time of each implementation is recorded and analyzed for performance comparison.
 
+## Project Structure
+### C Program (main.c)
+- Contains the C implementation of the dot product computation
+- Computes the correctness of the results and outputs onto console
+- Used as the baseline for comparison
+### x86 Program (asmfunc.asm)
+- Contains the x86 implementation of the dot product computation
+- Compared against the C implementation
+### XMM SIMD (xmm.asm)
+- Contains the XMM implementation of the dot product computation
+- Compared against the C implementation
+### YMM SIMD (ymm.asm)
+- Contains the YMM implementation of the dot product computation
+- Compared against the C implementation
 ## Execution time of all cases
 
 ![screenshot](Screenshots/Results.png)
