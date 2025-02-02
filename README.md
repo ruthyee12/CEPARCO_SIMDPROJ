@@ -19,17 +19,42 @@ This project implements and benchmarks dot product computation between two doubl
 - Compared against the C implementation
 ## Execution time of all cases
 
-![screenshot](Screenshots/Results.png)
+![screenshot](Screenshots/debugtest.png)
 
-<sub>Figure 1: Screenshot of execution times (Debug)</sub>
+<sub>Figure 1: Screenshot of execution times n = 2^20 (Debug)</sub>
 
-![screenshot](
+![screenshot](Screenshots/releasetest.png)
+
+<sub>Figure 2: Screenshot of execution times n = 2^20 (Release)</sub>
+
+![screenshot](Screenshots/debugn26.png)
+
+<sub>Figure 3: Screenshot of execution times n = 2^26 (Debug)</sub>
+
+![screenshot](Screenshots/releasen26.png)
+
+<sub>Figure 4: Screenshot of execution times n = 2^26 (Release)</sub)
+
+![screenshot](Screenshots/debugn28.png)
+
+<sub>Figure 5: Screenshot of execution times n = 2^28 (Debug)</sub>
+
+![screenshot](Screenshots/releasen28.png)
+
+<sub>Figure 6: Screenshot of execution times n = 2^28 (Release)</sub>
+
+![screenshot](Screenshots/debugn6.png)
+
+<sub>Figure 7: Screenshot of execution times n = 6 (Debug)</sub>
+
+![screenshot](Screenshots/debugn6.png)
+
+<sub>Figure 8: Screenshot of execution times n = 6 (Release)</sub>
 ## Results and Analysis
-![screenshot](Screenshots/table2.png)
+![screenshot](Screenshots/tablen1.png)
+![screenshot](Screenshots/tablen2.png)
 
-<sub>Figure 2: Screenshot of execution comparison</sub>
-
-The first run of the program is at startup of Visual Studio which means that none of the segments are loaded into memory. Both dry and preloaded runs are included in the comparison to better see the differences in the performance of each kernel. According to the results, while using C as the baseline, there are significant differences in each kernel used.
+<sub>Figure 9: Table of execution comparison for all cases</sub>
 
 ### Performance Breakdown
 #### C
