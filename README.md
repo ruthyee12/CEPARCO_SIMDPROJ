@@ -33,7 +33,7 @@ This project implements and benchmarks dot product computation between two doubl
 
 ![screenshot](Screenshots/releasen26.png)
 
-<sub>Figure 4: Screenshot of execution times n = 2^26 (Release)</sub)
+<sub>Figure 4: Screenshot of execution times n = 2^26 (Release)</sub>
 
 ![screenshot](Screenshots/debugn28.png)
 
