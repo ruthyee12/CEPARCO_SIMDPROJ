@@ -1,5 +1,6 @@
-# CEPARCO_SIMDPROJ
-Write a C main program to call the kernels of the C version, non-SIMD x86-64 assembly language, SIMD x86 assembly language using the XMM register, and SIMD x86 assembly language using the YMM register.
+# CEPARCO SIMD Programming Project
+
+<h3> Overview </h3>
 
 ## Execution time of all cases
 
