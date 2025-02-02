@@ -52,7 +52,7 @@ This project implements and benchmarks dot product computation between two doubl
 <sub>Figure 8: Screenshot of execution times n = 6 (Release)</sub>
 ## Results and Analysis
 ![screenshot](Screenshots/tablen1.png)
-![screenshot](Screenshots/tablen2.png)
+![screenshot](Screenshots/tablen22.png)
 
 <sub>Figure 9: Table of execution comparison for all cases</sub>
 
