@@ -21,8 +21,9 @@ This project implements and benchmarks dot product computation between two doubl
 
 ![screenshot](Screenshots/Results.png)
 
-<sub>Figure 1: Screenshot of execution times</sub>
+<sub>Figure 1: Screenshot of execution times (Debug)</sub>
 
+![screenshot](
 ## Results and Analysis
 ![screenshot](Screenshots/table2.png)
 
